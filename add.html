@@ -2,19 +2,22 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Додати товар — Charly13.UA</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header><h1>Додати товар</h1></header>
   <main>
-    <form>
-      <input type="text" placeholder="Назва товару" required><br>
-      <input type="text" placeholder="Ціна" required><br>
-      <textarea placeholder="Опис"></textarea><br>
+    <form id="addForm">
+      <input type="text" id="title" placeholder="Назва товару" required>
+      <input type="text" id="price" placeholder="Ціна" required>
+      <textarea id="desc" placeholder="Опис" required></textarea>
+      <input type="file" id="photo" accept="image/*">
       <button type="submit">Опублікувати</button>
     </form>
     <a href="index.html" class="back">← Назад</a>
   </main>
+  <script src="app.js"></script>
 </body>
 </html>

@@ -1,46 +1,59 @@
 body {
-  background-color: #111;
+  background: #0a0a0a;
   color: #eee;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
 }
 header {
-  background: #900;
+  background: #a00000;
   padding: 1rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 h1 {
   margin: 0;
+  font-family: monospace;
+  letter-spacing: 2px;
+}
+.add-btn, .back {
+  background: #ff0000;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 main {
   padding: 1rem;
 }
-.item {
-  border: 1px solid #444;
-  padding: 1rem;
-  margin: 1rem 0;
-  background: #222;
-}
-.add-button, .back {
-  display: inline-block;
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
-  background: #900;
-  color: #fff;
-  text-decoration: none;
-}
 form input, form textarea {
+  display: block;
   width: 100%;
   margin: 0.5rem 0;
   padding: 0.5rem;
-  background: #333;
+  background: #111;
   color: #fff;
-  border: 1px solid #666;
+  border: 1px solid #333;
 }
 form button {
+  background: #a00000;
+  color: white;
   padding: 0.5rem 1rem;
-  background: #900;
   border: none;
-  color: #fff;
+}
+.item {
+  background: #1a1a1a;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #333;
+}
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+.chat-btn {
+  background: #444;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  text-decoration: none;
 }
