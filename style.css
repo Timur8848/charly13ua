@@ -1,27 +1,32 @@
 body {
   background: #0a0a0a;
   color: #eee;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
 }
 header {
-  background: #a00000;
+  background: #1a0000;
+  color: #ff4444;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid #ff0000;
+  text-transform: uppercase;
 }
-h1 {
-  margin: 0;
+h1, h2 {
   font-family: monospace;
-  letter-spacing: 2px;
+  margin: 0 0 0.5rem 0;
 }
-.add-btn, .back {
+.add-btn, .back, .chat-btn {
   background: #ff0000;
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
 }
 main {
   padding: 1rem;
@@ -40,32 +45,31 @@ form button {
   color: white;
   padding: 0.5rem 1rem;
   border: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .item {
   background: #1a1a1a;
   margin: 1rem 0;
   padding: 1rem;
-  border: 1px solid #333;
+  border: 1px solid #ff0000;
+  box-shadow: 0 0 5px #ff0000;
 }
 .item img {
   max-width: 100%;
   height: auto;
+  margin-top: 0.5rem;
+  border: 1px solid #333;
 }
-.chat-btn {
-  background: #444;
-  color: white;
-  padding: 0.3rem 0.7rem;
-  text-decoration: none;
-}
-
 .chat-box {
   height: 300px;
   overflow-y: auto;
   background: #111;
-  border: 1px solid #333;
+  border: 1px solid #ff0000;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 .msg {
   margin: 0.5rem 0;
+  color: #ffdddd;
 }
