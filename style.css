@@ -1,75 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 body {
-  background: #0a0a0a;
-  color: #eee;
-  font-family: 'Courier New', Courier, monospace;
+  background: url('https://i.imgur.com/lKJiT77.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Black Ops One', cursive;
   margin: 0;
   padding: 0;
 }
 header {
-  background: #1a0000;
-  color: #ff4444;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffaa00;
   padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #ff0000;
-  text-transform: uppercase;
-}
-h1, h2 {
-  font-family: monospace;
-  margin: 0 0 0.5rem 0;
-}
-.add-btn, .back, .chat-btn {
-  background: #ff0000;
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+  font-size: 1.5rem;
 }
 main {
   padding: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+h1, h2 {
+  color: #00ff00;
+  text-shadow: 2px 2px #000;
 }
 form input, form textarea {
   display: block;
   width: 100%;
   margin: 0.5rem 0;
-  padding: 0.5rem;
-  background: #111;
-  color: #fff;
-  border: 1px solid #333;
+  padding: 0.75rem;
+  background: #222;
+  color: #0f0;
+  border: 2px solid #ffaa00;
+  font-size: 1rem;
+  font-family: monospace;
 }
 form button {
-  background: #a00000;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  text-transform: uppercase;
+  background: #ffaa00;
+  color: #000;
+  padding: 0.75rem 1.5rem;
   font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffaa00;
+  text-transform: uppercase;
 }
 .item {
-  background: #1a1a1a;
+  background: rgba(0, 0, 0, 0.8);
   margin: 1rem 0;
   padding: 1rem;
-  border: 1px solid #ff0000;
-  box-shadow: 0 0 5px #ff0000;
+  border: 2px solid #ffaa00;
+  box-shadow: 0 0 10px #000;
 }
 .item img {
   max-width: 100%;
   height: auto;
+  border: 2px solid #444;
   margin-top: 0.5rem;
-  border: 1px solid #333;
 }
 .chat-box {
   height: 300px;
   overflow-y: auto;
   background: #111;
-  border: 1px solid #ff0000;
+  border: 2px solid #ffaa00;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 .msg {
   margin: 0.5rem 0;
-  color: #ffdddd;
+  color: #ffffff;
+  background: #333;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.add-btn, .back, .chat-btn {
+  background: #00ff00;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px #00ff00;
 }
