@@ -1,0 +1,46 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #900;
+  padding: 1rem;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+main {
+  padding: 1rem;
+}
+.item {
+  border: 1px solid #444;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #222;
+}
+.add-button, .back {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background: #900;
+  color: #fff;
+  text-decoration: none;
+}
+form input, form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #333;
+  color: #fff;
+  border: 1px solid #666;
+}
+form button {
+  padding: 0.5rem 1rem;
+  background: #900;
+  border: none;
+  color: #fff;
+}
